@@ -1,0 +1,37 @@
+ImageHash train/test leakage audit
+==================================
+Hash implementation: upstream imagehash package (unmodified)
+Method: phash
+Candidate threshold: 10
+Comparison: all train vs all test classes
+Train images successfully hashed: 1790
+Test images successfully hashed: 446
+Processing errors: 0
+Pairwise comparisons performed: 798340
+Candidate pairs (distance <= 10): 2
+Smallest train-test distance observed: 2
+Median nearest-train distance across test images: 18
+
+Train class counts:
+  Autosome: 143
+  CellWall: 398
+  Chloroplast: 245
+  ER: 240
+  Golgi: 233
+  Mito: 178
+  Nucleus: 168
+  Vesicles: 185
+
+Test class counts:
+  Autosome: 36
+  CellWall: 99
+  Chloroplast: 61
+  ER: 60
+  Golgi: 58
+  Mito: 44
+  Nucleus: 42
+  Vesicles: 46
+
+Interpretation note:
+  pHash itself is unchanged. Distance is upstream ImageHash.__sub__.
+  --threshold only selects candidate rows; all pair distances are audited.

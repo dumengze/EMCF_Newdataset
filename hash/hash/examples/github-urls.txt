@@ -1,0 +1,10 @@
+https://github.com/akveo/eva-icons
+https://github.com/CodeMouse92/VividityIcons
+https://github.com/franksouza183/Evolvere-Icons
+https://github.com/HackeSta/atom-icons
+https://github.com/icons8/welovesvg
+https://github.com/joaobborges/minimal-icons
+https://github.com/pluwen/awesome-iconjar
+https://github.com/simple-icons/simple-icons
+https://github.com/synthagency/icons-flat-osx
+https://github.com/twbs/icons

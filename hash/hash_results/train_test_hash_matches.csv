@@ -1,0 +1,3 @@
+train_class,test_class,train_relative_path,test_relative_path,train_path,test_path,train_hash,test_hash,distance,same_class
+Chloroplast,Chloroplast,Chloroplast/1.1_008_Chloroplast_6.tif,Chloroplast/1.1_009_Chloroplast_2.tif,/Users/jason/Desktop/OrganelleClassifyDataset/train/Chloroplast/1.1_008_Chloroplast_6.tif,/Users/jason/Desktop/OrganelleClassifyDataset/test/Chloroplast/1.1_009_Chloroplast_2.tif,f346c41d9b34652d,fb42c41d9b34652d,2,True
+Nucleus,Nucleus,Nucleus/kw10-6--13000X--0122_Nucleus_1.tif,Nucleus/kw10-6--6800X--0006_Nucleus_1.tif,/Users/jason/Desktop/OrganelleClassifyDataset/train/Nucleus/kw10-6--13000X--0122_Nucleus_1.tif,/Users/jason/Desktop/OrganelleClassifyDataset/test/Nucleus/kw10-6--6800X--0006_Nucleus_1.tif,81c22eb53d12d97b,81622eb53d12d97b,2,True
